@@ -15,25 +15,107 @@
       "product_url": "https://www.gateron.com/products/gateron-ks-9-switch-set",
       "selection_reason": "用户指定普通KS-9红轴；采用官方KS-9H10B045NN-X14三维模型作为机械接口依据。",
       "cad_relevance": "required",
-      "part_identity": "b0cc38ed41ebe460"
+      "part_identity": "b0cc38ed41ebe460",
+      "description": "普通KS-9三脚红轴，Red线性、MX十字轴芯；单件用1枚，建议购买2枚备1。官网35枚/包，可找同型号散装；勿误购静音版、五脚版或矮轴。"
     },
     {
       "id": "lanyard",
       "role": "hanger",
-      "name": "手机挂绳，穿孔细绳段直径不超过1.5mm",
+      "name": "Atwood Rope MFG 1.18mm Micro Cord - Black",
       "quantity": 1,
       "source": "default",
-      "selection_reason": "细绳穿过番茄斜后侧一体半圆挂孔；孔耳尽量内缩，并为整个孔口留下约0.2mm上层遮挡余量。",
-      "part_identity": "709e80c88487a241"
+      "selection_reason": "1.18mm标称绳径小于已验证的1.5mm穿绳规格；保留紧凑孔耳及全孔投影余量。",
+      "part_identity": "ff352b9598a2d97a",
+      "manufacturer": "Atwood Rope MFG",
+      "part_number": "1.18mm Micro Cord - Black",
+      "product_url": "https://atwoodrope.com/collections/actually-new/products/1-18mm-x-125ft-black?variant=1215237733",
+      "description": "单件用约20cm细绳；商品按卷销售，1卷可做多件。已有直径不超过1.5mm细绳可沿用。"
     },
     {
       "id": "adhesive",
       "role": "adhesive",
-      "name": "适用于PLA/PETG的凝胶瞬干胶，小支装",
+      "name": "LOCTITE Super Glue Gel Control, 4 g",
       "quantity": 1,
       "source": "default",
-      "selection_reason": "固定五个下层打印件的粘接面；轴体和活动顶盖禁止上胶。",
-      "part_identity": "709e80c88487a241"
+      "selection_reason": "默认凝胶CA胶便于点胶控制；依据厂商说明充分固化12至24小时，具体耗材粘接性能需小样确认。",
+      "part_identity": "eaaf3556159b865d",
+      "manufacturer": "Henkel / LOCTITE",
+      "part_number": "1364076",
+      "product_url": "https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Gel-Control-en_US.pdf",
+      "datasheet_url": "https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Gel-Control-en_US.pdf",
+      "description": "1瓶，仅胶接五个固定食材件的四处层间接触面；先用实际PLA/PETG废料试粘。"
+    },
+    {
+      "id": "print_bottom_bun",
+      "role": "printed_part",
+      "name": "汉堡挂件定制打印件：底面包",
+      "description": "PLA，暖金/浅棕；约45.542×45.542×6.5mm，净料约11.84g。底面朝下，下缘圆弧按悬垂情况局部支撑。",
+      "quantity": 1,
+      "manufacturer": "本项目定制件",
+      "part_number": "BURGER-BOTTOM_BUN",
+      "source": "default",
+      "selection_reason": "对应模型修订f28ba4d，见六件打印清单。",
+      "part_identity": "787bdfde2deba88e"
+    },
+    {
+      "id": "print_patty",
+      "role": "printed_part",
+      "name": "汉堡挂件定制打印件：凹凸纹理肉饼",
+      "description": "PETG，棕色；约45.643×45.556×5mm，净料约8.5g。底面朝下，内部支承台阶按需支撑。",
+      "quantity": 1,
+      "manufacturer": "本项目定制件",
+      "part_number": "BURGER-PATTY",
+      "source": "default",
+      "selection_reason": "对应模型修订f28ba4d，见六件打印清单。",
+      "part_identity": "47e6e5a1399d3468"
+    },
+    {
+      "id": "print_tomato",
+      "role": "printed_part",
+      "name": "汉堡挂件定制打印件：番茄片与挂孔",
+      "description": "PETG，红色；约43.7×44.48×3.75mm，净料约5.86g。番茄和孔耳共底面，孔内不放支撑。",
+      "quantity": 1,
+      "manufacturer": "本项目定制件",
+      "part_number": "BURGER-TOMATO",
+      "source": "default",
+      "selection_reason": "对应模型修订f28ba4d，见六件打印清单。",
+      "part_identity": "fe2c525c8065c762"
+    },
+    {
+      "id": "print_lettuce",
+      "role": "printed_part",
+      "name": "汉堡挂件定制打印件：菜叶与导向柱",
+      "description": "PETG，浅绿；约49.508×49.508×11.515mm，净料约4.77g。四柱朝上，菜叶下垂处局部支撑，导向面保持清洁。",
+      "quantity": 1,
+      "manufacturer": "本项目定制件",
+      "part_number": "BURGER-LETTUCE",
+      "source": "default",
+      "selection_reason": "对应模型修订f28ba4d，见六件打印清单。",
+      "part_identity": "06ce1a354c3174db"
+    },
+    {
+      "id": "print_cheese",
+      "role": "printed_part",
+      "name": "汉堡挂件定制打印件：直边垂角芝士",
+      "description": "PLA，黄色；约53.492×53.492×3.263mm，净料约2.01g。保持自然垂角，非配合面设置可拆支撑，不压平。",
+      "quantity": 1,
+      "manufacturer": "本项目定制件",
+      "part_number": "BURGER-CHEESE",
+      "source": "default",
+      "selection_reason": "对应模型修订f28ba4d，见六件打印清单。",
+      "part_identity": "bf136581fba4da9a"
+    },
+    {
+      "id": "print_top_bun",
+      "role": "printed_part",
+      "name": "汉堡挂件定制打印件：实心顶面包与白芝麻",
+      "description": "PLA，暖金/浅棕加白色；约44.507×44.507×21.208mm，净料约26.52g。圆顶朝上，插座朝下，底面非配合区支撑；十字孔及导向孔禁支撑，芝麻保持原位作为同一多色件。",
+      "quantity": 1,
+      "manufacturer": "本项目定制件",
+      "part_number": "BURGER-TOP_BUN",
+      "source": "default",
+      "selection_reason": "对应模型修订f28ba4d，见六件打印清单。",
+      "part_identity": "a6a087ecfee965c0"
     }
   ]
 }

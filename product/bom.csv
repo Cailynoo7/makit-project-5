@@ -1,0 +1,10 @@
+﻿id,role,name,quantity,manufacturer,part_number,source,product_url,datasheet_url,description,selection_reason,part_identity
+switch,mechanical_switch,GATERON KS-9 Switch Set — Red (3-Pin),1,Gateron,KS-9H10B045NN-X14,user,https://www.gateron.com/products/gateron-ks-9-switch-set,,普通KS-9三脚红轴，Red线性、MX十字轴芯；单件用1枚，建议购买2枚备1。官网35枚/包，可找同型号散装；勿误购静音版、五脚版或矮轴。,用户指定普通KS-9红轴；采用官方KS-9H10B045NN-X14三维模型作为机械接口依据。,b0cc38ed41ebe460
+lanyard,hanger,Atwood Rope MFG 1.18mm Micro Cord - Black,1,Atwood Rope MFG,1.18mm Micro Cord - Black,default,https://atwoodrope.com/collections/actually-new/products/1-18mm-x-125ft-black?variant=1215237733,,单件用约20cm细绳；商品按卷销售，1卷可做多件。已有直径不超过1.5mm细绳可沿用。,1.18mm标称绳径小于已验证的1.5mm穿绳规格；保留紧凑孔耳及全孔投影余量。,ff352b9598a2d97a
+adhesive,adhesive,"LOCTITE Super Glue Gel Control, 4 g",1,Henkel / LOCTITE,1364076,default,https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Gel-Control-en_US.pdf,https://datasheets.tdx.henkel.com/LOCTITE-Super-Glue-Gel-Control-en_US.pdf,1瓶，仅胶接五个固定食材件的四处层间接触面；先用实际PLA/PETG废料试粘。,默认凝胶CA胶便于点胶控制；依据厂商说明充分固化12至24小时，具体耗材粘接性能需小样确认。,eaaf3556159b865d
+print_bottom_bun,printed_part,汉堡挂件定制打印件：底面包,1,本项目定制件,BURGER-BOTTOM_BUN,default,,,PLA，暖金/浅棕；约45.542×45.542×6.5mm，净料约11.84g。底面朝下，下缘圆弧按悬垂情况局部支撑。,对应模型修订f28ba4d，见六件打印清单。,787bdfde2deba88e
+print_patty,printed_part,汉堡挂件定制打印件：凹凸纹理肉饼,1,本项目定制件,BURGER-PATTY,default,,,PETG，棕色；约45.643×45.556×5mm，净料约8.5g。底面朝下，内部支承台阶按需支撑。,对应模型修订f28ba4d，见六件打印清单。,47e6e5a1399d3468
+print_tomato,printed_part,汉堡挂件定制打印件：番茄片与挂孔,1,本项目定制件,BURGER-TOMATO,default,,,PETG，红色；约43.7×44.48×3.75mm，净料约5.86g。番茄和孔耳共底面，孔内不放支撑。,对应模型修订f28ba4d，见六件打印清单。,fe2c525c8065c762
+print_lettuce,printed_part,汉堡挂件定制打印件：菜叶与导向柱,1,本项目定制件,BURGER-LETTUCE,default,,,PETG，浅绿；约49.508×49.508×11.515mm，净料约4.77g。四柱朝上，菜叶下垂处局部支撑，导向面保持清洁。,对应模型修订f28ba4d，见六件打印清单。,06ce1a354c3174db
+print_cheese,printed_part,汉堡挂件定制打印件：直边垂角芝士,1,本项目定制件,BURGER-CHEESE,default,,,PLA，黄色；约53.492×53.492×3.263mm，净料约2.01g。保持自然垂角，非配合面设置可拆支撑，不压平。,对应模型修订f28ba4d，见六件打印清单。,bf136581fba4da9a
+print_top_bun,printed_part,汉堡挂件定制打印件：实心顶面包与白芝麻,1,本项目定制件,BURGER-TOP_BUN,default,,,PLA，暖金/浅棕加白色；约44.507×44.507×21.208mm，净料约26.52g。圆顶朝上，插座朝下，底面非配合区支撑；十字孔及导向孔禁支撑，芝麻保持原位作为同一多色件。,对应模型修订f28ba4d，见六件打印清单。,a6a087ecfee965c0

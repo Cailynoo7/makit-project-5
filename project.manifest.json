@@ -1,5 +1,13 @@
 {
   "formatVersion": 4,
   "name": "汉堡造型解压挂件",
+  "title": "Burger-Shaped Fidget Keychain",
+  "summary": "A burger-shaped fidget keychain that offers satisfying stress relief and adds a playful touch to your keys or bag.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "QY G"
+    }
+  ],
   "artifacts": "rebuild"
 }

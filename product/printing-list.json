@@ -1,0 +1,133 @@
+{
+  "revision": "f28ba4da0058c18f61f6d4d31ade4ea327c5a7554209bfd7befd7d9fd51fbd6d",
+  "release_id": "export-1ba3257e0d7ef25b3ad6f43e5c34c187",
+  "sets": 1,
+  "physical_parts": 6,
+  "parts": [
+    {
+      "id": "bottom_bun",
+      "name": "底面包",
+      "quantity": 1,
+      "material": "PLA",
+      "color": "暖金/浅棕",
+      "volume_mm3": 9547.415,
+      "size_mm": [
+        45.542,
+        45.542,
+        6.5
+      ],
+      "net_mass_estimate_g": 11.84,
+      "cad_objects": [
+        "bottom_bun"
+      ],
+      "orientation_and_support": "底面朝下，下缘圆弧按悬垂情况局部支撑"
+    },
+    {
+      "id": "patty",
+      "name": "凹凸纹理肉饼",
+      "quantity": 1,
+      "material": "PETG",
+      "color": "棕色",
+      "volume_mm3": 6689.568,
+      "size_mm": [
+        45.643,
+        45.556,
+        5
+      ],
+      "net_mass_estimate_g": 8.5,
+      "cad_objects": [
+        "patty"
+      ],
+      "orientation_and_support": "底面朝下，内部支承台阶按需支撑"
+    },
+    {
+      "id": "tomato",
+      "name": "番茄片与挂孔",
+      "quantity": 1,
+      "material": "PETG",
+      "color": "红色",
+      "volume_mm3": 4611.968,
+      "size_mm": [
+        43.7,
+        44.48,
+        3.75
+      ],
+      "net_mass_estimate_g": 5.86,
+      "cad_objects": [
+        "tomato"
+      ],
+      "orientation_and_support": "番茄和孔耳共底面，孔内不放支撑"
+    },
+    {
+      "id": "lettuce",
+      "name": "菜叶与导向柱",
+      "quantity": 1,
+      "material": "PETG",
+      "color": "浅绿",
+      "volume_mm3": 3753.931,
+      "size_mm": [
+        49.508,
+        49.508,
+        11.515
+      ],
+      "net_mass_estimate_g": 4.77,
+      "cad_objects": [
+        "lettuce"
+      ],
+      "orientation_and_support": "四柱朝上，菜叶下垂处局部支撑，导向面保持清洁"
+    },
+    {
+      "id": "cheese",
+      "name": "直边垂角芝士",
+      "quantity": 1,
+      "material": "PLA",
+      "color": "黄色",
+      "volume_mm3": 1621.674,
+      "size_mm": [
+        53.492,
+        53.492,
+        3.263
+      ],
+      "net_mass_estimate_g": 2.01,
+      "cad_objects": [
+        "cheese"
+      ],
+      "orientation_and_support": "保持自然垂角，非配合面设置可拆支撑，不压平"
+    },
+    {
+      "id": "top_bun",
+      "name": "实心顶面包与白芝麻",
+      "quantity": 1,
+      "material": "PLA",
+      "color": "暖金/浅棕加白色",
+      "volume_mm3": 21390.786,
+      "size_mm": [
+        44.507,
+        44.507,
+        21.208
+      ],
+      "net_mass_estimate_g": 26.52,
+      "cad_objects": [
+        "top_bun",
+        "sesame"
+      ],
+      "orientation_and_support": "圆顶朝上，插座朝下，底面非配合区支撑；十字孔及导向孔禁支撑，芝麻保持原位作为同一多色件"
+    }
+  ],
+  "defaults": {
+    "filament_diameter_mm": 1.75,
+    "nozzle_mm": 0.2,
+    "layer_height_mm": 0.12,
+    "infill_percent": 100,
+    "bed_mm": [
+      180,
+      180
+    ]
+  },
+  "net_mass_estimate_g": 59.5,
+  "mass_method": "CAD实体体积，PLA密度1.24、PETG密度1.27g/cm3，来自eSUN官方；不含支撑、底筏和多色清洗耗材。未切片。",
+  "evidence_urls": [
+    "https://www.esun3d.com/pla-pro-product",
+    "https://www.esun3d.com/petg-product"
+  ]
+}
