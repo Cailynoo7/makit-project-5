@@ -1,0 +1,1 @@
+publish("ks9", asset("design/burger/source/assets/29f4d60beb57a869d233939c629de23319458d225f0be6644fd86258533e3c9d.step"), "KS-9 红轴")

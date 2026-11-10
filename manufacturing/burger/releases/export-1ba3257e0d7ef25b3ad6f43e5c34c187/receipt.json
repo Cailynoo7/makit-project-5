@@ -1,0 +1,124 @@
+{
+  "designId": "burger",
+  "revision": "f28ba4da0058c18f61f6d4d31ade4ea327c5a7554209bfd7befd7d9fd51fbd6d",
+  "schemaVersion": 3,
+  "exportId": "export-1ba3257e0d7ef25b3ad6f43e5c34c187",
+  "generatedAt": "2026-11-10T13:24:08.038Z",
+  "designSha256": "ff6b9d3fba606cd43348957df8e679bde3b50c267ec35f67b846c027c23e2d91",
+  "role": "mechanical_fidget_assembly",
+  "stateHash": "bfcaddbbc950c0e8da324a7552b20ed260d4f66088c5424858ffaf4e54ac6af1",
+  "stateManifest": {
+    "schemaVersion": 4,
+    "designId": "burger",
+    "role": "mechanical_fidget_assembly",
+    "design": {
+      "revision": "f28ba4da0058c18f61f6d4d31ade4ea327c5a7554209bfd7befd7d9fd51fbd6d",
+      "designSha256": "fe6af2ebca0779c3f51c2548a8db39af1d7cda031803178ccc181ab8ec5025f1",
+      "manifestSha256": "0f4501251ae75056c01ba8b4ede43d32c99ab30950b26b271905770355b7fc70",
+      "modelSha256": "21dd04a5d0832ca31c5400a800a4fd7052a11f3bfb27d7303d4b9ec21f720dd4",
+      "pcbReleases": []
+    },
+    "brief": {
+      "path": "design/burger/README.md",
+      "sha256": "5d80a6d2853609e9ee21602d298149bd7d52fdd032aae0f8a4733be6de9a568d"
+    },
+    "requirement": {
+      "artifactContractPath": "product/contract.json",
+      "artifactContractSha256": "143c95504f21c0699db3efedcd4563c44512232e3b1a8191be898f21a7d1eb49",
+      "designRequirementSha256": "d678bcc81a4145fe03976c158f12dcf107a1151741ad5f8bf9825aced3ce7214",
+      "inputs": [
+        {
+          "role": "external-reference",
+          "id": "ks9_vendor",
+          "path": "product/references/KS-9 Switch KS-9H10B045NN-X14-FB.stp",
+          "sha256": "29f4d60beb57a869d233939c629de23319458d225f0be6644fd86258533e3c9d",
+          "sizeBytes": 1080795
+        },
+        {
+          "role": "external-reference",
+          "id": "user_burger_reference",
+          "path": "product/references/uploads/20261110T074027901Z-1-1.png",
+          "sha256": "405eb4d5e016bb9dc4759e2a9ae0a76659c87bd4ad255f7b445b8493e5f00992",
+          "sizeBytes": 1709481
+        }
+      ]
+    },
+    "delivery": {
+      "target": "printable_part",
+      "formats": [
+        "step"
+      ]
+    },
+    "stateHash": "bfcaddbbc950c0e8da324a7552b20ed260d4f66088c5424858ffaf4e54ac6af1"
+  },
+  "buildArtifacts": {
+    "manifestSha256": "0f4501251ae75056c01ba8b4ede43d32c99ab30950b26b271905770355b7fc70",
+    "modelSha256": "21dd04a5d0832ca31c5400a800a4fd7052a11f3bfb27d7303d4b9ec21f720dd4"
+  },
+  "exportAlgorithm": {
+    "version": 1,
+    "bootstrapSha256": "73e2a6d20ca2ee605997d4e1a375b8831f0b363e3d66e5778b9738224ab9bcea"
+  },
+  "sourceHashes": {
+    "bottom_bun/bottom_bun": "0049a5d8e9f8163f5d246336a2a3203074c40fad4f47dce684c81fefb30584a7",
+    "cheese/cheese": "c9c270cbdfc4adc7a0f8ad997d991a80fca27b8fa23fc73c560110ca9036f42d",
+    "imports/ks9": "63b90d5739b5a7d3f8bfb1ce8216be4112b351cc1c69fac8a70adf6ef9b74b43",
+    "lettuce/lettuce": "c7204d89bde22b7c44add7a2afaac79379e6828bf588979a529a8971ba1762b4",
+    "patty/patty": "f85b4412a93e3a25e3c58524e0d8a980e2ff5d9d65e3aaaca8c674f4d1d97864",
+    "tomato/tomato": "212e51663f6430c4d1f1b1d14fa3716dec20fc601ac0c92cb557c9561197b965",
+    "top_bun/top_bun": "8cfe1108cc7bda7dc205ad664392eee63d05ab83f38e811a1e7c1a0d1df809f5"
+  },
+  "assetHashes": {
+    "ks9": "29f4d60beb57a869d233939c629de23319458d225f0be6644fd86258533e3c9d"
+  },
+  "shapeHashes": {
+    "bottom_bun": "8e5b088c1a7928c643ac10218ea393871a53a2043acbe3b9d8b14217f9c33dec",
+    "cheese": "da091c1fe133b5f6021d68362e6e2d8f9c40cde136b2ebbdd5d28c1773ac03af",
+    "ks9": "d54679fd726a9019f408ac9cfa1d4a13797c325a2bdfc785c792012b42c63c71",
+    "lettuce": "3313e797aa3c9e1779ab9aa137156e78027c169072c36e3a03ae9ebf7ac5f62d",
+    "patty": "0684e9c26f2e31cf0ea959f516f43f7b1beba825495da76699fd1767b3f30d45",
+    "sesame": "8d138b5ffb4b4dd0da69c82ee4a7f8b9167ddf86e5edf226e776d57cf3803b11",
+    "tomato": "c906aef30bf5cfb4069f2c32af42d2475d764855a471d5a18525c2f194e3fd22",
+    "top_bun": "42ab61b33e46d7b960135a8c077d6a3e6bb5afbc808ade7288399c143488b70e"
+  },
+  "runtime": {
+    "manifestHash": "fc14cea3fa144580d670f50a47b5e19f20d3314d173aa36fe6464963ee0359eb",
+    "pythonVersion": "3.12.13",
+    "build123dVersion": "0.10.0",
+    "ocpVersion": "7.8.1.1.post1",
+    "cadpyHash": "9d8309bdd0a4779c7701aff0d2b54a8c30d0cdfdc1c825f242abfdd2906a104c"
+  },
+  "artifacts": [
+    {
+      "path": "manufacturing/burger/releases/export-1ba3257e0d7ef25b3ad6f43e5c34c187/model.step",
+      "role": "model/step",
+      "sha256": "e5289993f07ded4ec9b0d2de5e3a6161c269efb5f9a0b6ab1cc2abd30665d177",
+      "sizeBytes": 21542379
+    }
+  ],
+  "interference": {
+    "summary": "No interference across 28 object pairs.",
+    "counts": {
+      "objects": 8,
+      "pairs": 28,
+      "exact": 0,
+      "mesh": 0,
+      "cached": 12,
+      "interference": 0,
+      "undeclared": 0,
+      "over_budget": 0,
+      "undetermined": 0
+    },
+    "overlaps": []
+  },
+  "authority": {
+    "version": 1,
+    "algorithm": "hmac-sha256",
+    "keyId": "0ea5bd380f80a251c35046c9f33bb282",
+    "projectId": "cb51949e-97eb-4154-9423-09968e170bb1",
+    "receiptPath": "manufacturing/burger/releases/export-1ba3257e0d7ef25b3ad6f43e5c34c187/receipt.json",
+    "payloadSha256": "bafcbb350838c6cc8eabffa79a975c2a5c65861dd0fc7a5de0b08bbfd642a80f",
+    "mac": "6d656f0da270e35a240115cb96dcea84ecfd8a4c8f508774e41dc91e84fca8cb"
+  },
+  "status": "handoff"
+}

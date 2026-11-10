@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "bom_ready": true,
+  "requirements_digest": "db78b4ded317611c9a0ad9da0f5a9d7b9b2d697cfb66da5997b6694c0b1551b8",
+  "items": [
+    {
+      "id": "switch",
+      "role": "mechanical_switch",
+      "name": "GATERON KS-9 Switch Set — Red (3-Pin)",
+      "manufacturer": "Gateron",
+      "part_number": "KS-9H10B045NN-X14",
+      "quantity": 1,
+      "source": "user",
+      "product_url": "https://www.gateron.com/products/gateron-ks-9-switch-set",
+      "selection_reason": "用户指定普通KS-9红轴；采用官方KS-9H10B045NN-X14三维模型作为机械接口依据。",
+      "cad_relevance": "required",
+      "part_identity": "b0cc38ed41ebe460"
+    },
+    {
+      "id": "lanyard",
+      "role": "hanger",
+      "name": "手机挂绳，穿孔细绳段直径不超过1.5mm",
+      "quantity": 1,
+      "source": "default",
+      "selection_reason": "细绳穿过番茄斜后侧一体半圆挂孔；孔耳尽量内缩，并为整个孔口留下约0.2mm上层遮挡余量。",
+      "part_identity": "709e80c88487a241"
+    },
+    {
+      "id": "adhesive",
+      "role": "adhesive",
+      "name": "适用于PLA/PETG的凝胶瞬干胶，小支装",
+      "quantity": 1,
+      "source": "default",
+      "selection_reason": "固定五个下层打印件的粘接面；轴体和活动顶盖禁止上胶。",
+      "part_identity": "709e80c88487a241"
+    }
+  ]
+}

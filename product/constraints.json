@@ -1,0 +1,197 @@
+{
+  "units": "mm",
+  "mechanical_only": true,
+  "reference_image": "product/references/uploads/20261110T074027901Z-1-1.png",
+  "switch": {
+    "name": "Gateron KS-9 red, 3-pin",
+    "part_number": "KS-9H10B045NN-X14",
+    "source_url": "https://gateron.com/u_file/2306/26/file/KS-9SwitchKS-9H10B045NN-X14-FB.rar",
+    "step_sha256": "29f4d60beb57a869d233939c629de23319458d225f0be6644fd86258533e3c9d",
+    "placement_translation_mm": [
+      -49.9504975122655,
+      86.0703258159004,
+      -2.7
+    ],
+    "stem_top_z_mm": 23.7,
+    "flange_plane_z_mm": 14.5,
+    "lowest_pin_z_mm": 5.1,
+    "total_travel_max_mm": 4.0
+  },
+  "mechanism": {
+    "central_square_chamber_mm": 17.4,
+    "pin_well_square_mm": 12.4,
+    "pin_well_floor_z_mm": 2.8,
+    "stem_bore_cross_span_mm": 4.06,
+    "stem_bore_web_mm": 1.16,
+    "stem_bore_roof_z_mm": 23.7,
+    "guide_post_diameter_mm": 3.2,
+    "guide_bore_diameter_mm": 3.8,
+    "guide_circle_radius_mm": 11.3,
+    "guide_top_z_mm": 26.15,
+    "cheese_nominal_top_z_mm": 20.05,
+    "cap_base_z_mm": 23.15,
+    "stem_socket_drop_mm": 2.15,
+    "stem_engagement_mm": 2.7,
+    "rest_min_clearance_cad_mm": 3.100377,
+    "checked_downstroke_mm": 3.100416,
+    "guide_post_inward_shift_mm": 3.2,
+    "housing_relief_width_mm": 16,
+    "housing_relief_depth_mm": 2,
+    "guide_to_relief_nominal_web_mm": 1.4,
+    "stem_socket_outer_size_mm": [
+      4.8,
+      6.2
+    ],
+    "stem_bore_roof_local_mm": 0.55,
+    "stem_socket_min_x_wall_mm": 0.37,
+    "housing_check": "Vendor STEP fused. At 0.5mm sampled poses and endpoint, exclude observed 5x6.55mm moving plate envelope: no overlap, minimum clearance 0.10mm. Proxy only; real switch dry fit required."
+  },
+  "connections": [
+    {
+      "id": "bottom_to_patty",
+      "implementation": "free",
+      "method": "flat glue land; align central cavity"
+    },
+    {
+      "id": "patty_to_tomato",
+      "implementation": "free",
+      "method": "flat glue land; align central cavity"
+    },
+    {
+      "id": "switch_retention",
+      "implementation": "free",
+      "method": "contoured lower support and upper flange keeper; no electrical connection"
+    },
+    {
+      "id": "tomato_to_lettuce",
+      "implementation": "free",
+      "method": "flat glue land; align central chamber"
+    },
+    {
+      "id": "lettuce_to_cheese",
+      "implementation": "free",
+      "method": "guide posts register holes; nominal 0.12mm glue film"
+    },
+    {
+      "id": "cap_to_guides",
+      "implementation": "free",
+      "method": "four 3.2mm posts at 11.3mm radius in 3.8mm bores; radial gap 0.30mm"
+    },
+    {
+      "id": "cap_to_switch",
+      "implementation": "free",
+      "method": "nominal MX cross contact; actual retention force depends on print calibration"
+    },
+    {
+      "id": "sesame_to_bun",
+      "implementation": "free",
+      "method": "boolean-trimmed sesame caps meet bun surface without shared volume; retain coordinates as one multicolour print"
+    },
+    {
+      "id": "lanyard_to_tomato",
+      "implementation": "free",
+      "method": "integral PETG tomato D eye, center radius23.85mm rotated -39.4deg from rear; full hole projection clearance0.2163mm, cord up to1.5mm"
+    }
+  ],
+  "printing": {
+    "bed_assumed_mm": [
+      180,
+      180
+    ],
+    "top_layer_height_mm": 0.12,
+    "body_layer_height_mm": 0.16,
+    "support": "solid bun local recess, leaf waves, draped cheese corners and patty ledges may need supports/bridging; keep stem and guide bores clear; tomato and eye share bottom plane",
+    "material": "PLA buns and cheese; PETG patty, tomato with integral eye, lettuce guides",
+    "prototype_checks": [
+      "dry-fit MX socket before gluing",
+      "full return with cap fitted",
+      "off-centre press in four directions",
+      "lanyard proof test before carrying",
+      "inspect thin socket side walls and verify stem clearance before gluing"
+    ],
+    "fine_nozzle_mm": 0.2,
+    "mass_assumption": "PLA density 1.24g/cm3 and 100% material fill; actual print mass depends on slicing"
+  },
+  "shape": {
+    "body_diameter_mm": 49.51,
+    "overall_height_mm": 42.208,
+    "bottom_bun_height_mm": 6.5,
+    "top_bun_height_mm": 18.5,
+    "crown_superellipse_exponent": 2.6,
+    "patty_height_mm": 5,
+    "patty_style": "continuous wavy loft with dense irregular positive and negative surface displacement; retains 5mm height and switch interfaces",
+    "cheese_nominal_side_mm": 38,
+    "cheese_corner_inset_mm": 0,
+    "cheese_corner_droop_mm": 2,
+    "sesame_count": 24,
+    "sesame_ellipsoid_mm": [
+      2.2,
+      1.6,
+      0.9
+    ],
+    "sesame_layout": "seeded random rejection sampling; non-spiral",
+    "sesame_embedded_volume": "removed by difference from complete outer bun solid",
+    "cheese_style": "38mm square with straight plan edges; outward corners drape vertically",
+    "cheese_assembled_extents_mm": [
+      53.492,
+      53.492,
+      3.263
+    ],
+    "crown_skirt_inset_mm": 0.9,
+    "crown_skirt_transition_height_mm": 2.6,
+    "crown_max_diameter_mm": 44.507,
+    "crown_near_bottom_diameter_mm": 42.08,
+    "bottom_bun_upper_diameter_mm": 45.6,
+    "bottom_bun_foot_diameter_mm": 42,
+    "bottom_top_edge_radius_mm": 1.6,
+    "bottom_lower_edge_radius_mm": 1.2,
+    "bottom_side_profile": "r(z)=22.8-1.8*(1-z/6.5)^3; inward slope increases progressively downward",
+    "top_bun_structure": "solid except stem socket, four guide bores and a shallow local housing recess",
+    "top_bun_volume_mm3": 21363.636,
+    "top_bun_dense_pla_mass_g": 26.491,
+    "tomato_height_mm": 3.75,
+    "bottom_bun_max_diameter_mm": 45.541793,
+    "bottom_taper_exponent": 3,
+    "top_bun_bottom_fillet_mm": 2,
+    "patty_surface_relief_mm": 0.65,
+    "patty_surface_features": 150,
+    "patty_surface_seed": 73,
+    "patty_volume_mm3": 6689.568,
+    "patty_max_xy_mm": [
+      45.643244,
+      45.555977
+    ]
+  },
+  "hanger": {
+    "owner": "tomato",
+    "outer_radius_mm": 4.2,
+    "inner_radius_mm": 2,
+    "center_radius_mm": 23.85,
+    "rotation_from_rear_deg": -39.4,
+    "max_radius_mm": 28.05,
+    "root_radius_mm": 20,
+    "thickness_mm": 3.75,
+    "bottom_z_mm": 11.5,
+    "top_z_mm": 15.25,
+    "cord_diameter_max_mm": 1.5,
+    "cord_probe_center_mm": [
+      15.77305325307635,
+      19.202429301409175,
+      25
+    ],
+    "cord_probe_height_mm": 50,
+    "cord_probe_min_to_leaf_mm": 0.7355,
+    "mesh_tolerance_mm": 0.02,
+    "cord_probe_min_to_tomato_mm": 0.248,
+    "whole_hole_projection_min_to_leaf_mm": 0.2163,
+    "whole_hole_projection_target_clearance_mm": 0.2
+  },
+  "layer_base_z_mm": {
+    "bottom_bun": 0,
+    "patty": 6.5,
+    "tomato": 11.5,
+    "lettuce": 15.25,
+    "cheese": 18.65,
+    "top_bun": 23.15
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "file": "KS-9 Switch KS-9H10B045NN-X14-FB.stp",
+      "sha256": "29f4d60beb57a869d233939c629de23319458d225f0be6644fd86258533e3c9d",
+      "bytes": 1080795,
+      "addedAt": "2026-11-10T07:43:07.967Z",
+      "share": false
+    },
+    {
+      "file": "ks9-official.rar",
+      "sha256": "ef0d67fed08a2f78abd9ae45b4b08eb2b4b3012a089358758933b8109e21947d",
+      "bytes": 148849,
+      "addedAt": "2026-11-10T07:42:50.330Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261110T074027901Z-1-1.png",
+      "sha256": "405eb4d5e016bb9dc4759e2a9ae0a76659c87bd4ad255f7b445b8493e5f00992",
+      "bytes": 1709481,
+      "addedAt": "2026-11-10T07:40:27.951Z",
+      "share": false
+    }
+  ]
+}

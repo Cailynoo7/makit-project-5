@@ -1,0 +1,423 @@
+{
+  "schemaVersion": 1,
+  "units": "mm",
+  "coordinateFrame": "makit-world-z-up",
+  "targets": [
+    {
+      "id": "imports",
+      "label": "imports",
+      "cells": [
+        {
+          "id": "ks9",
+          "target": "imports",
+          "order": 0,
+          "path": "design/burger/source/parts/imports/000-ks9.py",
+          "sha256": "63b90d5739b5a7d3f8bfb1ce8216be4112b351cc1c69fac8a70adf6ef9b74b43"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "bottom_bun",
+      "label": "bottom_bun",
+      "cells": [
+        {
+          "id": "bottom_bun",
+          "target": "bottom_bun",
+          "order": 0,
+          "path": "design/burger/source/parts/bottom_bun/000-bottom_bun.py",
+          "sha256": "0049a5d8e9f8163f5d246336a2a3203074c40fad4f47dce684c81fefb30584a7"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "patty",
+      "label": "patty",
+      "cells": [
+        {
+          "id": "patty",
+          "target": "patty",
+          "order": 0,
+          "path": "design/burger/source/parts/patty/000-patty.py",
+          "sha256": "f85b4412a93e3a25e3c58524e0d8a980e2ff5d9d65e3aaaca8c674f4d1d97864"
+        }
+      ],
+      "dependencies": [
+        "bottom_bun"
+      ]
+    },
+    {
+      "id": "tomato",
+      "label": "tomato",
+      "cells": [
+        {
+          "id": "tomato",
+          "target": "tomato",
+          "order": 0,
+          "path": "design/burger/source/parts/tomato/000-tomato.py",
+          "sha256": "212e51663f6430c4d1f1b1d14fa3716dec20fc601ac0c92cb557c9561197b965"
+        }
+      ],
+      "dependencies": [
+        "bottom_bun"
+      ]
+    },
+    {
+      "id": "top_bun",
+      "label": "top_bun",
+      "cells": [
+        {
+          "id": "top_bun",
+          "target": "top_bun",
+          "order": 0,
+          "path": "design/burger/source/parts/top_bun/000-top_bun.py",
+          "sha256": "8cfe1108cc7bda7dc205ad664392eee63d05ab83f38e811a1e7c1a0d1df809f5"
+        }
+      ],
+      "dependencies": [
+        "bottom_bun"
+      ]
+    },
+    {
+      "id": "cheese",
+      "label": "cheese",
+      "cells": [
+        {
+          "id": "cheese",
+          "target": "cheese",
+          "order": 0,
+          "path": "design/burger/source/parts/cheese/000-cheese.py",
+          "sha256": "c9c270cbdfc4adc7a0f8ad997d991a80fca27b8fa23fc73c560110ca9036f42d"
+        }
+      ],
+      "dependencies": [
+        "bottom_bun"
+      ]
+    },
+    {
+      "id": "lettuce",
+      "label": "lettuce",
+      "cells": [
+        {
+          "id": "lettuce",
+          "target": "lettuce",
+          "order": 0,
+          "path": "design/burger/source/parts/lettuce/000-lettuce.py",
+          "sha256": "c7204d89bde22b7c44add7a2afaac79379e6828bf588979a529a8971ba1762b4"
+        }
+      ],
+      "dependencies": [
+        "bottom_bun",
+        "cheese",
+        "tomato"
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "ks9",
+      "target": "imports",
+      "label": "KS-9 红轴",
+      "kind": "imported",
+      "shapeHash": "d54679fd726a9019f408ac9cfa1d4a13797c325a2bdfc785c792012b42c63c71",
+      "transform": {
+        "positionMm": [
+          -49.9504975122655,
+          86.0703258159004,
+          -2.7
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "bottom_bun",
+      "target": "bottom_bun",
+      "label": "底面包",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "8e5b088c1a7928c643ac10218ea393871a53a2043acbe3b9d8b14217f9c33dec",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "patty",
+      "target": "patty",
+      "label": "凹凸纹理肉饼",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "0684e9c26f2e31cf0ea959f516f43f7b1beba825495da76699fd1767b3f30d45",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          6.5
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "tomato",
+      "target": "tomato",
+      "label": "番茄片与挂孔",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "c906aef30bf5cfb4069f2c32af42d2475d764855a471d5a18525c2f194e3fd22",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          11.5
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "sesame",
+      "target": "top_bun",
+      "label": "自然散点白芝麻",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "8d138b5ffb4b4dd0da69c82ee4a7f8b9167ddf86e5edf226e776d57cf3803b11",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          23.15
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "top_bun",
+      "target": "top_bun",
+      "label": "实心圆顶面包",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "42ab61b33e46d7b960135a8c077d6a3e6bb5afbc808ade7288399c143488b70e",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          23.15
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "cheese",
+      "target": "cheese",
+      "label": "垂角芝士",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "da091c1fe133b5f6021d68362e6e2d8f9c40cde136b2ebbdd5d28c1773ac03af",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          18.65
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          45
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "lettuce",
+      "target": "lettuce",
+      "label": "波浪菜叶与导向",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "3313e797aa3c9e1779ab9aa137156e78027c169072c36e3a03ae9ebf7ac5f62d",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          15.25
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    }
+  ],
+  "assets": [
+    {
+      "id": "ks9",
+      "kind": "step",
+      "path": "design/burger/source/assets/29f4d60beb57a869d233939c629de23319458d225f0be6644fd86258533e3c9d.step",
+      "sha256": "29f4d60beb57a869d233939c629de23319458d225f0be6644fd86258533e3c9d",
+      "label": "KS-9 红轴",
+      "provenance": {
+        "sourcePath": "product/references/KS-9 Switch KS-9H10B045NN-X14-FB.stp",
+        "provider": "Gateron",
+        "sourceUrl": "https://gateron.com/u_file/2306/26/file/KS-9SwitchKS-9H10B045NN-X14-FB.rar",
+        "sourceVersion": "KS-9H10B045NN-X14-FB"
+      }
+    }
+  ],
+  "fits": [],
+  "updatedAt": "2026-11-10T13:24:08.038Z",
+  "parameters": {
+    "imports": {},
+    "bottom_bun": {
+      "body_diameter": 50,
+      "bottom_height": 6.5,
+      "bottom_edge_radius": 1.2,
+      "pin_well_width": 12.4,
+      "pin_well_floor": 2.8,
+      "switch_chamber_width": 17.4,
+      "guide_circle_radius": 11.3,
+      "guide_post_diameter": 3.2,
+      "bottom_foot_radius": 21,
+      "bottom_top_edge_radius": 1.6,
+      "bottom_taper_exponent": 3
+    },
+    "patty": {
+      "patty_height": 5,
+      "patty_edge_texture": 0.38,
+      "switch_seat_height": 2.5,
+      "patty_surface_relief": 0.65,
+      "patty_surface_features": 150,
+      "patty_surface_seed": 73
+    },
+    "tomato": {
+      "tomato_height": 3.75,
+      "tomato_edge_radius": 0.65,
+      "hanger_outer_radius": 4.2,
+      "hanger_inner_radius": 2,
+      "hanger_center_y": 23.85,
+      "hanger_rotation_deg": -39.4,
+      "hanger_root_y": 20
+    },
+    "top_bun": {
+      "top_height": 18.5,
+      "top_rim_radius": 2,
+      "cap_guide_bore": 3.8,
+      "stem_socket_outer": 6.2,
+      "stem_socket_drop": 2.15,
+      "stem_cross_span": 4.06,
+      "stem_cross_web": 1.16,
+      "sesame_length": 2.2,
+      "sesame_width": 1.6,
+      "sesame_height": 0.9,
+      "crown_fullness": 2.6,
+      "sesame_count": 24,
+      "sesame_scatter_seed": 47,
+      "crown_skirt_inset": 0.9,
+      "crown_skirt_height": 2.6,
+      "housing_relief_width": 16,
+      "housing_relief_depth": 2,
+      "stem_bore_roof_local": 0.55,
+      "stem_socket_width": 4.8
+    },
+    "cheese": {
+      "cheese_side": 38,
+      "cheese_thickness": 1.4,
+      "cheese_center_opening": 15.2,
+      "cheese_guide_hole": 4,
+      "cheese_edge_radius": 0.3,
+      "cheese_corner_droop": 2,
+      "cheese_corner_inset": 0
+    },
+    "lettuce": {
+      "lettuce_thickness": 1.5,
+      "lettuce_wave": 1.25,
+      "lettuce_lobes": 12,
+      "lettuce_switch_opening": 14.8,
+      "switch_flange_clearance": 0.4,
+      "guide_height_above_tomato": 10.9,
+      "lettuce_corner_drape": 2.4
+    }
+  }
+}

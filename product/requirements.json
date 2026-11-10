@@ -1,0 +1,189 @@
+{
+  "requirements": {
+    "product_name": {
+      "value": "汉堡造型解压挂件",
+      "source": "user"
+    },
+    "product_class": {
+      "value": "mechanical",
+      "source": "user"
+    },
+    "body_diameter_mm": {
+      "value": 50,
+      "source": "user"
+    },
+    "diameter_scope": {
+      "value": "圆形汉堡主体约50mm；芝士四角允许外伸，不以芝士对角线限制圆形主体直径",
+      "source": "user"
+    },
+    "layers_bottom_to_top": {
+      "value": [
+        "底面包",
+        "肉饼",
+        "番茄片",
+        "蔬菜片",
+        "芝士片",
+        "顶面包"
+      ],
+      "source": "user"
+    },
+    "design_direction": {
+      "value": "饱满实心顶面包、自然散点白芝麻、2mm底缘圆角；底面包上部弱收敛、下部渐强收敛的连续弧面；侧面密集自然凹凸的肉饼、番茄斜后侧紧凑挂孔；厚番茄及38mm直边垂角芝士",
+      "source": "user"
+    },
+    "sesame_color": {
+      "value": "白色",
+      "source": "user"
+    },
+    "sesame_layout": {
+      "value": "自然随意散点排布，避免螺旋视觉；每粒椭圆更短更圆润；布尔切除埋在面包内的体积",
+      "source": "user"
+    },
+    "hanger_interface": {
+      "value": "番茄层外侧一体半圆挂孔，在整个孔口不被上层遮挡的条件下尽量内缩，并保留少量制造余量；肉饼不设挂孔",
+      "source": "user"
+    },
+    "switch_identity": {
+      "value": "KS-9三角红轴",
+      "source": "user"
+    },
+    "switch_interpretation": {
+      "value": "佳达隆普通KS-9三脚红轴；厂商3D型号KS-9H10B045NN-X14",
+      "source": "default"
+    },
+    "switch_quantity": {
+      "value": 1,
+      "source": "user"
+    },
+    "switch_cavity": {
+      "value": "汉堡中心四边形空间，容纳并保持指定轴体",
+      "source": "user"
+    },
+    "press_behavior": {
+      "value": "顶面包扣在轴芯上；释放时抬起有间隙；压下接触芝士片；松手回弹",
+      "source": "user"
+    },
+    "base_board": {
+      "value": "不需要，纯机械回弹机构",
+      "source": "default"
+    },
+    "manufacturing_method": {
+      "value": "分件彩色3D打印打样",
+      "source": "default"
+    },
+    "standard_ks9_travel_limit_mm": {
+      "value": 4.0,
+      "source": "research"
+    },
+    "standard_ks9_red_operating_force_gf": {
+      "value": {
+        "nominal": 45,
+        "tolerance": 15
+      },
+      "source": "research"
+    },
+    "reference_image": {
+      "value": "product/references/uploads/20261110T074027901Z-1-1.png",
+      "source": "user"
+    },
+    "sesame_count": {
+      "value": 24,
+      "source": "default"
+    },
+    "bun_proportion": {
+      "value": "底面包减薄并呈下收弧线，上沿圆角；顶面包保留饱满18.5mm轮廓与底缘内收",
+      "source": "user"
+    },
+    "patty_form": {
+      "value": "保留现在的肉饼整体造型和厚度，在侧面增加大量自然、不规则、大小不一的凸起和浅凹，形成连续凹凸表面",
+      "source": "user"
+    },
+    "cheese_size_relation": {
+      "value": "芝士比42mm边长缩小一些，保留适度外伸的四角",
+      "source": "user"
+    },
+    "shape_dimensions_mm": {
+      "value": {
+        "bottom_bun_height": 6.5,
+        "top_bun_height": 18.5,
+        "patty_height": 5,
+        "cheese_nominal_side": 38,
+        "tomato_height": 3.75
+      },
+      "source": "default"
+    },
+    "cheese_form": {
+      "value": "尺寸适度收小的方形片，俯视四边为直线，四角不内收并自然外伸下垂",
+      "source": "user"
+    },
+    "top_bun_lower_edge": {
+      "value": "底口直径稍缩小，底部弧面圆润地向内收",
+      "source": "user"
+    },
+    "bottom_bun_profile": {
+      "value": "底面包侧面从上往下收敛强度由弱变强，形成柔和连续弧度，上部较直，越向下越向内收；保留减半后的总径向收敛量及上下圆角",
+      "source": "user"
+    },
+    "top_bun_structure": {
+      "value": "实心顶面包",
+      "source": "user"
+    },
+    "top_bun_functional_recess": {
+      "value": "仅保留十字轴芯插孔、四个导向盲孔及底部局部轴壳运动避让槽，取消整体空心腔",
+      "source": "default"
+    },
+    "guide_post_inward_shift_mm": {
+      "value": 3.2,
+      "source": "user"
+    },
+    "guide_circle_radius_mm": {
+      "value": 11.3,
+      "source": "user"
+    },
+    "bottom_bun_taper_ratio": {
+      "value": 0.5,
+      "source": "user"
+    },
+    "bottom_bun_top_fillet_mm": {
+      "value": 1.6,
+      "source": "user"
+    },
+    "bottom_bun_lower_fillet_mm": {
+      "value": 1.2,
+      "source": "default"
+    },
+    "tomato_thickness_increase_ratio": {
+      "value": 0.25,
+      "source": "user"
+    },
+    "upper_layer_raise_mm": {
+      "value": 0.75,
+      "source": "user"
+    },
+    "bottom_bun_taper_exponent": {
+      "value": 3,
+      "source": "default"
+    },
+    "top_bun_bottom_fillet_mm": {
+      "value": 2,
+      "source": "user"
+    },
+    "hanger_center_radius_mm": {
+      "value": 23.85,
+      "source": "default"
+    },
+    "hanger_hole_projection_clearance_mm": {
+      "value": 0.2,
+      "source": "default"
+    },
+    "patty_surface_relief_mm": {
+      "value": 0.65,
+      "source": "default"
+    },
+    "patty_surface_features": {
+      "value": 150,
+      "source": "default"
+    }
+  },
+  "open_questions": []
+}

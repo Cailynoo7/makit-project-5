@@ -1,0 +1,12 @@
+{
+  "parts": [
+    {
+      "ref": "SW1",
+      "name": "GATERON KS-9 red switch, mechanical spring use only",
+      "quantity": 1
+    }
+  ],
+  "connections": [],
+  "power": [],
+  "schema_version": 1
+}

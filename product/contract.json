@@ -1,0 +1,76 @@
+{
+  "version": 2,
+  "artifact_level": "assembly",
+  "deliverable_intent": "printable_part",
+  "summary": "约50毫米圆形主体的六层汉堡形解压挂件，以一枚KS-9红轴驱动顶面包按压回弹，番茄外侧设挂孔，顶部自然散点白芝麻。",
+  "required_interfaces": [
+    {
+      "id": "switch_retention",
+      "kind": "internal_fit",
+      "description": "中心四边形空间定位并保持指定KS-9红轴，避让脚柱和金属脚。",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "bun_stem_interface",
+      "kind": "internal_fit",
+      "description": "活动顶面包扣装轴芯，受压接触芝士片，松手回弹，保留安全行程。",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "tomato_hanger",
+      "kind": "internal_fit",
+      "description": "番茄层斜后侧半圆挂孔，整个孔口不被上层遮挡，尽量内收并保留少量制造余量。",
+      "source": "user_requested",
+      "required": true
+    }
+  ],
+  "external_references": [
+    {
+      "id": "user_burger_reference",
+      "source": "user_requested",
+      "description": "用户提供的汉堡造型参考图；外观和分层比例依据。",
+      "path": "product/references/uploads/20261110T074027901Z-1-1.png"
+    },
+    {
+      "id": "ks9_vendor",
+      "source": "user_requested",
+      "description": "佳达隆官方KS-9红轴STEP，下载入口https://www.gateron.com/pages/3d ，型号KS-9H10B045NN-X14。",
+      "path": "product/references/KS-9 Switch KS-9H10B045NN-X14-FB.stp"
+    }
+  ],
+  "assembly_story": {
+    "installation": "胶接固定下层食材，安装轴体和活动顶面包，挂绳穿入番茄外侧一体挂孔。",
+    "maintenance": "顶面包和轴体应允许维护更换；可拆接口在详细设计中确定。",
+    "user_access": [
+      "活动顶面包",
+      "红轴",
+      "番茄外侧挂孔"
+    ]
+  },
+  "cad": {
+    "requirement": "required",
+    "designs": [
+      {
+        "role": "mechanical_fidget_assembly",
+        "design_id": "burger",
+        "description": "六层汉堡、顶盖芝麻、中心轴体安装及按压机构。",
+        "delivery_target": "printable_part",
+        "required_formats": [
+          "step"
+        ],
+        "interface_ids": [
+          "switch_retention",
+          "bun_stem_interface",
+          "tomato_hanger"
+        ],
+        "reference_ids": [
+          "user_burger_reference",
+          "ks9_vendor"
+        ]
+      }
+    ]
+  },
+  "open_questions": []
+}
